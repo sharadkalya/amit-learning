@@ -1,0 +1,85 @@
+body {
+  padding: 20px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  width: 350px;
+  background: black;
+  color: white;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+span.logo {
+  display: flex;
+  background: red;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.right {
+  margin-right: 10px;
+}
+
+.title-container h4 {
+  margin: 10px 0;
+}
+
+.footer {
+  padding: 10px;
+  color: grey;
+}
+
+.footer-icons-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.my-icon:hover {
+  color: red;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.my-icon {
+  padding: 10px;
+}
+
+.magic {
+  width: 100px;
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.img-container {
+  cursor: pointer;
+}
+
+.container:hover .magic {
+  display: block;
+}
