@@ -115,7 +115,7 @@ if (car === undefined) {
  * {
  *  id: Date.now();
  *  title: 'Pick mom at 5:00'
- *  status: 'pending' // completed
+ *  completed: false 
  * }
  */
 
@@ -127,7 +127,7 @@ function addTodo() {
   const newTodo = {
     id: Date.now(),
     todo: document.getElementById('todoInput').value,
-    status: 'pending'
+    completed: false
   };
 
   todosArr.push(newTodo);
